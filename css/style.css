@@ -26,6 +26,8 @@ li > a > img {
 li > a {
   text-decoration: none;
   color: black;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .recipes-list {
