@@ -1,7 +1,17 @@
 body {
     background-color: #f2f2f2;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 li {
     list-style-type: none;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.recipes-list {
+    display: flex;
+    justify-content: space-evenly;
 }
