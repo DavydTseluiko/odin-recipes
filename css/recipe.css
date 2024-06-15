@@ -19,8 +19,16 @@ body {
   font-size: 20px;
 }
 
+.link-back > span {
+    transition: all .5s;
+}
+
 .arrow-left {
   width: 20px;
   height: auto;
   margin-right: 4px;
+}
+
+.link-back:hover span {
+    margin-left: 5px;
 }
