@@ -13,9 +13,15 @@ li {
   list-style-type: none;
 }
 
+li > a,
+li > a > img {
+  display: block;
+}
+
 li > a {
-    text-decoration: none;
-    color: black;
+  text-align: center;
+  text-decoration: none;
+  color: black;
 }
 
 .page-title {
