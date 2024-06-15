@@ -9,6 +9,11 @@ body {
   margin-top: -50px;
 }
 
+.page-title,
+li > a {
+    text-align: center;
+}
+
 li {
   list-style-type: none;
 }
@@ -19,13 +24,8 @@ li > a > img {
 }
 
 li > a {
-  text-align: center;
   text-decoration: none;
   color: black;
-}
-
-.page-title {
-  text-align: center;
 }
 
 .recipes-list {
